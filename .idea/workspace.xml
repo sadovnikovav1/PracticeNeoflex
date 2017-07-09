@@ -2,103 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7f1afff-3649-4542-b367-5e073f4cb4ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/bootstrap.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/commons-daemon-native.tar.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/commons-daemon.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/tcnative-1.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/tomcat-juli.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/tomcat-native.tar.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/tomcat8.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/tomcat8w.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/annotations-api.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/catalina-ant.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/catalina-ha.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/catalina-storeconfig.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/catalina-tribes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/catalina.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/ecj-4.6.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/el-api.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/jasper-el.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/jasper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/jaspic-api.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/jsp-api.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/servlet-api.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/tomcat-api.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/tomcat-coyote.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/tomcat-dbcp.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/tomcat-i18n-es.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/tomcat-i18n-fr.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/tomcat-i18n-ja.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/tomcat-jdbc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/tomcat-jni.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/tomcat-util-scan.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/tomcat-util.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/tomcat-websocket.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/lib/websocket-api.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/temp/safeToDelete.tmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/WebSocketChat-0.0.1-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/main/java/WebSocketChat.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/NOTICE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/RELEASE-NOTES" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/RUNNING.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/catalina-tasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/catalina.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/catalina.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/configtest.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/configtest.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/daemon.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/digest.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/digest.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/service.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/setclasspath.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/setclasspath.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/shutdown.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/shutdown.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/startup.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/startup.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/tool-wrapper.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/tool-wrapper.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/version.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/bin/version.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/conf/catalina.policy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/conf/catalina.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/conf/context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/conf/jaspic-providers.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/conf/jaspic-providers.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/conf/logging.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/conf/server.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/conf/tomcat-users.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/conf/tomcat-users.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/conf/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/logs/catalina.2017-07-09.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/logs/catalina.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/logs/host-manager.2017-07-09.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/logs/localhost.2017-07-09.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/logs/localhost_access_log.2017-07-09.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/logs/manager.2017-07-09.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/webapps/ROOT/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localtest/apache-tomcat-8.5.16-windows-x64/apache-tomcat-8.5.16/webapps/ROOT/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/WebSocketChat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PracticeNeoflex.iml" afterPath="$PROJECT_DIR$/PracticeNeoflex.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -128,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -689,10 +594,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18123667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -710,8 +615,37 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -827,7 +761,7 @@
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>

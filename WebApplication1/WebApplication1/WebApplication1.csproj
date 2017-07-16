@@ -162,6 +162,10 @@
     <Compile Include="Migrations\201707141919206_InitialCreate_added_users.Designer.cs">
       <DependentUpon>201707141919206_InitialCreate_added_users.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201707161729293_CanSendMessages_users.cs" />
+    <Compile Include="Migrations\201707161729293_CanSendMessages_users.Designer.cs">
+      <DependentUpon>201707161729293_CanSendMessages_users.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -170,6 +174,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201707141919206_InitialCreate_added_users.resx">
       <DependentUpon>201707141919206_InitialCreate_added_users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707161729293_CanSendMessages_users.resx">
+      <DependentUpon>201707161729293_CanSendMessages_users.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

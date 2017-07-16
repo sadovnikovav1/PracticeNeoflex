@@ -10,6 +10,8 @@ public class ChatHub : Hub
 
     private List<User> users;
 
+    private List<User> roomUsers; 
+
     public ChatHub()
     {
         database = new EfContext();
@@ -26,35 +28,41 @@ public class ChatHub : Hub
         return users.FirstOrDefault(u => u.Login == login);
     }
 
-
-
-    public void Send(string name, string message)
+    public void Send(string name, string message, List<User> chatUsers)
     {
-        Clients.All.broadcastMessage(name, message);
+        Clients.All.broadcastMessage(name, message, chatUsers, chatUsers.Count);
     }
 
     public void SignIn(string login, string password)
     {
         User user = getUserByLogin(login);
-        bool checker = user != null && user.Password == HashHelper.GetPasswordFromHash(password);
-        
-        Clients.All.isSignedIn(checker);
+        Clients.All.isSignedIn(user != null && user.Password == HashHelper.GetPasswordFromHash(password), users, users.Count);
+    }
+
+    public void CreateChatRoom(string[] array)
+    {
+        var newUsers = new List<User>();
+        roomUsers = new List<User>();
+
+        foreach (var item in array)
+        {
+            newUsers.Add(getUserByLogin(item));
+        }
+
+        Clients.All.chatRoomCreatedFor(newUsers, newUsers.Count);
     }
 
     public void Register(string login, string password)
     {
-        string message = null;
         if (users.Contains(getUserByLogin(login)))
         {
-            message = "Register failed, duplicated login";
-            Clients.All.isRegistered(message);
+            Clients.All.isRegistered("Register failed, duplicated login");
             return;
         }
 
         if (password.Length < 3)
         {
-            message = "Register failed, short password, must be >= 3";
-            Clients.All.isRegistered(message);
+            Clients.All.isRegistered("Register failed, short password, must be >= 3");
             return;
         }
 
@@ -62,9 +70,15 @@ public class ChatHub : Hub
         {
             Login = login,
             Password = HashHelper.GetPasswordFromHash(password),
+            CanSend = true,
         });
         database.SaveChanges();
-        message = "Register success";
-        Clients.All.isRegistered(message);
+        Clients.All.isRegistered("Register success");
+    }
+
+    public void CreateRoom()
+    {
+        var users = database.Users.ToList();
+        Clients.All.createPrivateRoom(users, users.Count);
     }
 }

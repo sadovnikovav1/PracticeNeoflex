@@ -102,3 +102,4 @@ D:\Practice Neoflex\PracticeNeoflex\WebApplication1\WebApplication1\obj\Debug\We
 D:\Practice Neoflex\PracticeNeoflex\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.GenerateResource.Cache
 D:\Practice Neoflex\PracticeNeoflex\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 D:\Practice Neoflex\PracticeNeoflex\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\Practice Neoflex\PracticeNeoflex\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.CanSendMessages_users.resources

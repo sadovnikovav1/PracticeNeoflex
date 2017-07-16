@@ -16,8 +16,10 @@
         <input type="button" id="sendmessage" value="Send" />
         <input type="button" id="sign" value="Sign in" />
         <input type="button" id="register" value="Register" />
+        <input type="button" id="createRoom" value="Create room" />
         <input type="hidden" id="displayname" />
         <input type="hidden" id="password" />
+        <input type="button" id="aprove" value="Create room for these users" />
         <ul id="discussion"></ul>
     </div>
     <script src="Scripts/jquery-1.6.4.min.js"></script>
@@ -28,19 +30,27 @@
         $(function () {
             var chat = $.connection.chatHub;
             var isClientSigned = false;
-            chat.client.broadcastMessage = function (name, message) {
+
+            chat.client.broadcastMessage = function (name, message, users, length) {
                 // Html encode display name and message.
-                var encodedName = $('<div />').text(name).html();
-                var encodedMsg = $('<div />').text(message).html();
-                $('#discussion').append('<li><strong>' + encodedName
-                    + '</strong>:&nbsp;&nbsp;' + encodedMsg + '</li>');
+                for (var i = 0; i < length; i++) {
+                    if (users[i].Login == name && users[i].CanSend) {
+                        var encodedName = $('<div />').text(name).html();
+                        var encodedMsg = $('<div />').text(message).html();
+                        $('#discussion').append('<li><strong>' + encodedName
+                            + '</strong>:&nbsp;&nbsp;' + encodedMsg + '</li>');
+                    }
+                } 
             };
-            chat.client.isSignedIn = function (checker) {
+            chat.client.isSignedIn = function (checker, users, length) {
                 isClientSigned = checker;
                 if (isClientSigned) {
                     $('#sign').prop('value', 'Sign out');
                     $('#register').hide();
+                    $('#createRoom').show();
                     alert("Success!!! Now you can write messages");
+                    chatUsers = users;
+                    userCounter = length;
                 } else {
                     $('#sign').prop('value', 'Sign in');
                     alert("Invalid login or password");
@@ -50,12 +60,34 @@
                 alert(message);
             }
 
+            chat.client.createPrivateRoom = function (users, length) {
+                chatUsers = users;
+                userCounter = length;
+                for (var i = 0; i < length; i++) {
+                    $('.container').append('<input type="checkbox" id="user' + i + '" /> <span>' + users[i].Login + '</span><br>');
+                };
+                $('.container').append('<br>');
+                $('#aprove').show();
+            };
+
+            chat.client.chatRoomCreatedFor = function (users, length) {
+                var str='';
+                for (var i = 0; i < length; i++) {
+                    str = str + users[i].Login + ' ';
+                };
+                chatUsers = users;
+                alert('Room created for ' + str);
+            };
+
             //pageStart methods
-            //todo
+            $('#createRoom').hide();
+            $('#aprove').hide();
+            $('#message').focus();
+            var chatUsers, userCounter, roomUsers;
             //pageStart methods
 
-            $('#message').focus();
             $.connection.hub.start().done(function () {
+                
                 //login
                 $('#sign').click(function () {
                     if (isClientSigned) {
@@ -65,6 +97,7 @@
                         $(this).prop('value', 'Sign in');
                         alert("you successfuly signed out");
                         $('#register').show();
+                        $('#createRoom').hide();
                     } else {
                         $('#displayname').val(prompt('Enter your login:', ''));
                         $('#password').val(prompt('Enter your password:', ''));
@@ -82,9 +115,23 @@
                 //sendmessage
                 $('#sendmessage').click(function () {
                     if (isClientSigned) {
-                        chat.server.send($('#displayname').val(), $('#message').val());                        
+                        chat.server.send($('#displayname').val(), $('#message').val(), chatUsers);
                     }
                     $('#message').val('').focus();
+                });
+
+                $('#createRoom').click(function () {
+                    chat.server.createRoom();
+                });
+
+                $('#aprove').click(function () {
+                    var array = [];
+                    for (var i = 0; i < userCounter; i++) {
+                        if ($('#user' + i).attr('checked') == 'checked') {
+                            array.push(chatUsers[i].Login);
+                        };
+                    };
+                    chat.server.createChatRoom(array);
                 });
             });
         });

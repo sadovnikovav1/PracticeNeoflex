@@ -16,5 +16,8 @@ namespace WebApplication1.Models
 
         [Required]
         public string Password { get; set; }
+
+        [Required]
+        public bool CanSend { get; set; }
     }
 }
